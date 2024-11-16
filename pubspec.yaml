@@ -1,0 +1,35 @@
+name: currency_detector
+description: A currency detection app using Flutter and TFLite.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.5+9
+  tflite_flutter: ^0.11.0
+  flutter_tts: ^3.8.5
+  path_provider: ^2.1.2
+  path: ^1.8.3
+  cupertino_icons: ^1.0.8
+  image: ^4.1.3
+  http: ^1.1.0
+  collection: ^1.17.0
+  http_parser: ^4.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/model.tflite
+    - assets/labels.txt
+    - assets/profile_placeholder.png
