@@ -181,7 +181,7 @@ class _CurrencyDetectorScreenState extends State<CurrencyDetectorScreen> {
       case "2000":
         return 2000;
       case "1":
-        return 1000;
+        return 1;
       case "5":
         return 5;
       case "2":
@@ -223,22 +223,22 @@ class _CurrencyDetectorScreenState extends State<CurrencyDetectorScreen> {
                     _buildProfileCard(
                       'Puneeth',
                       '99220041457',
-                      'assets/puneeth.png',
+                      'assets/puneeth.jpg',
                     ),
                     _buildProfileCard(
                       'Kushwanth',
                       '99220041451',
-                      'assets/kush.png',
+                      'assets/kush.jpg',
                     ),
                     _buildProfileCard(
                       'Prasanth',
                       '99220041463',
-                      'assets/prashant.png',
+                      'assets/prashant.jpg',
                     ),
                     _buildProfileCard(
                       'Nandini',
                       '99220041434',
-                      'assets/nandini.png',
+                      'assets/nandini.jpg',
                     ),
                   ],
                 ),

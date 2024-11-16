@@ -33,3 +33,7 @@ flutter:
     - assets/model.tflite
     - assets/labels.txt
     - assets/profile_placeholder.png
+    - assets/puneeth.jpg
+    - assets/kush.jpg
+    - assets/prashant.jpg
+    - assets/nandini.jpg
